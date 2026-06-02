@@ -35,17 +35,10 @@ network:
 
 ```
 ## Work Completed
-Installed Ubuntu Server VM
-Configured static IP address
-Configured DNS to point to the domain controller
-Verified DNS resolution
-Installed domain join packages
-Joined Ubuntu Server to Active Directory domain
-Verified domain connectivity
-Useful Verification Commands
-ip a
-resolvectl status
-nslookup bp.testserv.local
-ping 192.168.1.52
-realm list
-id username@bp.testserv.local
+-Installed Ubuntu Server VM
+-Configured static IP address
+-Configured DNS to point to the domain controller
+-Verified DNS resolution
+-Installed domain join packages
+-Joined Ubuntu Server to Active Directory domain
+-Verified domain connectivity
