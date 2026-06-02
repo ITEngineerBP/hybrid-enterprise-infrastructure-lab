@@ -26,19 +26,23 @@ The lab simulates a small business IT environment with centralized identity, dom
 - Linux CLI
 - Static IP networking
 
-## Lab Network Summary
-Proxmox Host
-Hypervisor
-192.168.1.50
-| Windows Server | Domain Controller / DNS | 192.168.1.52 |
-| Ubuntu Server | Domain-joined Linux VM | 192.168.1.53 |
-| Windows 11 VM | Domain-joined workstation | DHCP or static IP |
+| System | Role | IP Address |
+|----------|----------|----------|
+| Proxmox Host | Hypervisor | 192.168.1.50 |
+| Windows Server | Active Directory Domain Controller / DNS Server | 192.168.1.52 |
+| Ubuntu Server | Domain-Joined Linux Server | 192.168.1.53 |
+| Windows 11 VM | Domain-Joined Workstation | DHCP or Static |
 
-## Domain Information
+---
+
+## Domain Configuration
+
+| Setting | Value |
+|----------|----------|
 | Domain Name | bp.testserv.local |
 | DNS Server | 192.168.1.52 |
-| Gateway | 192.168.1.254 |
-| Subnet | 192.168.1.0/24 |
+| Default Gateway | 192.168.1.254 |
+| Network Subnet | 192.168.1.0/24 |
 
 ## Repository Structure
 ```text
