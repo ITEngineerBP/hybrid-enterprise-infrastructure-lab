@@ -27,7 +27,9 @@ The lab simulates a small business IT environment with centralized identity, dom
 - Static IP networking
 
 ## Lab Network Summary
-| Proxmox Host | Hypervisor | 192.168.1.50 |
+Proxmox Host
+Hypervisor
+192.168.1.50
 | Windows Server | Domain Controller / DNS | 192.168.1.52 |
 | Ubuntu Server | Domain-joined Linux VM | 192.168.1.53 |
 | Windows 11 VM | Domain-joined workstation | DHCP or static IP |
