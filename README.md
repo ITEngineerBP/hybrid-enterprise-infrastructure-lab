@@ -47,12 +47,13 @@ The lab simulates a small business IT environment with centralized identity, dom
 
 ## Repository Structure
 ```text
-architecture/
-screenshots/
-proxmox/
 active-directory/
-linux/
-windows/
-networking/
+architecture/
 automation/
+azure/
 lessons-learned/
+linux/
+networking/
+proxmox/
+windows/
+
