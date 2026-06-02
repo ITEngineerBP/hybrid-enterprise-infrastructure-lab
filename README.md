@@ -26,6 +26,7 @@ The lab simulates a small business IT environment with centralized identity, dom
 - Linux CLI
 - Static IP networking
 
+## Network Topology
 | System | Role | IP Address |
 |----------|----------|----------|
 | Proxmox Host | Hypervisor | 192.168.1.50 |
