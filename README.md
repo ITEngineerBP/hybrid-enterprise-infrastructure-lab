@@ -27,8 +27,6 @@ The lab simulates a small business IT environment with centralized identity, dom
 - Static IP networking
 
 ## Current Lab Status
-| Component | Status |
-|---|---|
 | Proxmox Host | Complete |
 | Windows Server Domain Controller | Complete |
 | Active Directory Domain | Complete |
@@ -37,16 +35,12 @@ The lab simulates a small business IT environment with centralized identity, dom
 | Azure Integration | Planned |
 
 ## Lab Network Summary
-| Device | Role | IP Address |
-|---|---|---|
 | Proxmox Host | Hypervisor | 192.168.1.50 |
 | Windows Server | Domain Controller / DNS | 192.168.1.52 |
 | Ubuntu Server | Domain-joined Linux VM | 192.168.1.53 |
 | Windows 11 VM | Domain-joined workstation | DHCP or static IP |
 
 ## Domain Information
-| Item | Value |
-|---|---|
 | Domain Name | bp.testserv.local |
 | DNS Server | 192.168.1.52 |
 | Gateway | 192.168.1.254 |
