@@ -35,10 +35,10 @@ network:
 
 ```
 ## Work Completed
--Installed Ubuntu Server VM
--Configured static IP address
--Configured DNS to point to the domain controller
--Verified DNS resolution
--Installed domain join packages
--Joined Ubuntu Server to Active Directory domain
--Verified domain connectivity
+- Installed Ubuntu Server VM
+- Configured static IP address
+- Configured DNS to point to the domain controller
+- Verified DNS resolution
+- Installed domain join packages
+- Joined Ubuntu Server to Active Directory domain
+- Verified domain connectivity
