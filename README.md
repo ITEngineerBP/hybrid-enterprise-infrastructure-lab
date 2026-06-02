@@ -1,48 +1,65 @@
-# hybrid-enterprise-infrastructure-lab
-Hybrid enterprise lab using Proxmox, Active Directory, Ubuntu Server, Windows 11 VM, and Azure infrastructure.
-
 # Hybrid Enterprise Infrastructure Lab
 
 ## Overview
-Designed and deployed a hybrid enterprise infrastructure lab using Proxmox virtualization, Windows Server Active Directory, Ubuntu Server, Windows 11, and Microsoft Azure.
+This project documents a hybrid enterprise-style lab environment built using Proxmox, Windows Server Active Directory, Windows 11, and Ubuntu Server.
 
-## Goals
-- Build a realistic enterprise-style infrastructure environment
-- Practice Active Directory and Linux/Windows administration
-- Simulate hybrid cloud architecture
-- Prepare for AZ-104 and cloud engineering roles
+The lab simulates a small business IT environment with centralized identity, domain-joined endpoints, server infrastructure, Linux integration, and network documentation.
 
-## Architecture
-Include diagram here.
+## Lab Objectives
+- Build a virtualization environment using Proxmox VE
+- Deploy a Windows Server domain controller
+- Configure Active Directory Domain Services
+- Create and manage an internal domain
+- Join Windows and Linux machines to the domain
+- Configure static IP addressing and DNS
+- Document infrastructure using screenshots, diagrams, and technical notes
 
-## Environment
-| Component | Purpose |
+## Technologies Used
+- Proxmox VE
+- Windows Server
+- Active Directory Domain Services
+- DNS
+- Windows 11
+- Ubuntu Server
+- Realmd / SSSD
+- PowerShell
+- Linux CLI
+- Static IP networking
+
+## Current Lab Status
+| Component | Status |
 |---|---|
-| Proxmox VE | Hypervisor |
-| Windows Server | Domain Controller / DNS |
-| Ubuntu Server | Linux domain-joined server |
-| Windows 11 | Domain-joined client |
-| Azure | Cloud infrastructure layer |
+| Proxmox Host | Complete |
+| Windows Server Domain Controller | Complete |
+| Active Directory Domain | Complete |
+| Windows 11 Domain Join | Complete |
+| Ubuntu Server Domain Join | Complete |
+| Azure Integration | Planned |
 
-## Skills Demonstrated
-- Virtualization administration
-- Active Directory administration
-- Linux domain integration
-- Windows client administration
-- DNS and networking
-- Azure infrastructure deployment
-- Hybrid cloud design
-- Troubleshooting and documentation
+## Lab Network Summary
+| Device | Role | IP Address |
+|---|---|---|
+| Proxmox Host | Hypervisor | 192.168.1.50 |
+| Windows Server | Domain Controller / DNS | 192.168.1.52 |
+| Ubuntu Server | Domain-joined Linux VM | 192.168.1.53 |
+| Windows 11 VM | Domain-joined workstation | DHCP or static IP |
 
-## Project Status
-Completed:
-- Proxmox installed
-- Domain controller configured
-- Ubuntu joined to domain
-- Windows 11 joined to domain
+## Domain Information
+| Item | Value |
+|---|---|
+| Domain Name | bp.testserv.local |
+| DNS Server | 192.168.1.52 |
+| Gateway | 192.168.1.254 |
+| Subnet | 192.168.1.0/24 |
 
-Planned:
-- Azure VNet and VM
-- Terraform deployment
-- Monitoring
-- Automation scripts
+## Repository Structure
+```text
+architecture/
+screenshots/
+proxmox/
+active-directory/
+linux/
+windows/
+networking/
+automation/
+lessons-learned/
