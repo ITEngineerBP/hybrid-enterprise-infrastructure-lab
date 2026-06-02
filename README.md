@@ -34,7 +34,7 @@ The lab simulates a small business IT environment with centralized identity, dom
 | Ubuntu Server | Domain-Joined Linux Server | 192.168.1.53 |
 | Windows 11 VM | Domain-Joined Workstation | DHCP or Static |
 
----
+
 
 ## Domain Configuration
 
