@@ -26,14 +26,6 @@ The lab simulates a small business IT environment with centralized identity, dom
 - Linux CLI
 - Static IP networking
 
-## Current Lab Status
-| Proxmox Host | Complete |
-| Windows Server Domain Controller | Complete |
-| Active Directory Domain | Complete |
-| Windows 11 Domain Join | Complete |
-| Ubuntu Server Domain Join | Complete |
-| Azure Integration | Planned |
-
 ## Lab Network Summary
 | Proxmox Host | Hypervisor | 192.168.1.50 |
 | Windows Server | Domain Controller / DNS | 192.168.1.52 |
