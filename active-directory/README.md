@@ -7,8 +7,7 @@ Windows Server was configured as the central identity provider for the lab envir
 | Item | Value |
 |---|---|
 | Domain | bp.testserv.local |
-| Domain Controller IP | 192.168.1.52 |
-| DNS Server | 192.168.1.52 |
+| Domain Controller IP / DNS Server | 192.168.1.52 |
 | Server Role | Domain Controller / DNS |
 
 ## Work Completed
